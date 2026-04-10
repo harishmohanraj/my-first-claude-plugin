@@ -1,0 +1,16 @@
+{
+    "name": "my-first-claude-plugin",
+    "description": "A greeting claude code plugin to learn the basics",
+    "version": "1.0.0",
+    "owner": {
+        "name": "DevTools Team",
+        "email": "devtools@example.com"
+    },
+    "plugins": [
+        {
+            "name": "greet-user",
+            "source": "./plugins/greet-user",
+            "description": "Adds a /greet-user skill for greeting the user"
+        }
+    ]
+}
